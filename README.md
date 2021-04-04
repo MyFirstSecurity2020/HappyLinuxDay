@@ -19,8 +19,10 @@ linux是當今開放原始碼的典範，也是資訊工程重要的基礎，
 完整的C程式設計仍建議學生修讀相關書籍。逆向工程尚須對組合語言的解讀與
 開發有一定程度理解，鼓勵有高度學習興趣的學生繼續參加後續逆向工程的課程。
 ```
+# 上課須知
 ```
 本課程將依上課學生的學生狀況,動態調整上課的內容深淺
+參加本課程需專注學習，上課期間不得喧嘩，也請將手機設定成震動模式
 ```
 # 課程內容
 ```
@@ -35,7 +37,7 @@ linux是當今開放原始碼的典範，也是資訊工程重要的基礎，
 網路鑑識(Network Forensics)
 ```
 
-# 各學習主題
+# 各單元學習主題
 ## 1.基礎linux入門
 ```
 認識Linux作業系統:多人使用與多工作業
@@ -47,7 +49,6 @@ Linux的目錄結構
 Linux-檔案與目錄操作指令
 redirection(重定向)與pipe(管道)
 Linux網路指令
-Linux指令-壓縮與解壓縮
 ```
 ## 2.隱寫術入門
 ```
@@ -56,16 +57,29 @@ Linux指令-壓縮與解壓縮
 圖片隱寫術 :圖片中的隱藏資訊
 檔案格式(file signature)
 使用hex編輯器分析檔案
-使用Linux的dd、binwalk指令解片隱寫術
+使用Linux的dd、binwalk指令解圖片隱寫術
 ```
-## 3.linux程式設計入門
+## 3.linux C程式設計入門
 ```
-
+使用gcc 編譯C程式
+linux C程式的編譯與執行各階段: 預處理 => 編譯 => 彙編 => 連結
+認識組合語言程式:指令|暫存器|記憶體
+組合語言的AT&T與Intel格式
 ```
 ## 4.Linux binary analysis
+```
+使用file strings 分析 Linux binary
+Linux binary的 ELF格式
+使用 readelf 分析Linux binary
 
+gdb進行程式動態分析與調試(debug)
+```
 ## 5.Reverse Engineering 入門
-# 後續建議研習內容
+```
+逆向工程Reverse Engineering
+逆向工程常用工具
+使用objdump進行逆向工程解題
+(*)[選擇性內容]使用radare2進行逆向工程解題
+(*)[選擇性內容]使用Ghidra進行逆向工程解題
 ```
 
-```
