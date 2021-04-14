@@ -1,4 +1,5 @@
 # HappyLinuxDay
+
 ## 課程宗旨
 ```
 linux是當今開放原始碼的典範，也是資訊工程重要的基礎，
@@ -10,8 +11,9 @@ linux是當今開放原始碼的典範，也是資訊工程重要的基礎，
 
 本課程另特別以範例學習模式教導學生快速掌握linux上的C程式設計與相關安全觀念。
 課程將使用gcc進行C語言程式設計與使用gdb進行程式動態分析與調試(debug)，
-運用file、strings、readelf等linux指令進行linux執行檔分析及使用objdum與radare2(或Ghidra)進行
-逆向工程。這些程式開發相關技術是程式安全分析的基礎同時也是CTF搶旗大賽的核心基礎知識。
+運用file、strings、readelf等linux指令進行linux執行檔分析及使用objdump
+與radare2(或Ghidra)進行逆向工程。
+這些程式開發相關技術是程式安全分析的基礎同時也是CTF搶旗大賽的核心基礎知識。
 ```
 ## 課程特色
 ```
