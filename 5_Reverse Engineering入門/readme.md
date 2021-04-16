@@ -3,10 +3,12 @@
 
 Reverse Engineering 逆向工程
 
-使用objdump 進行Reverse Engineering
-使用radare 2進行Reverse Engineering
-使用ghidra進行Reverse Engineering
-(*)使用IDA PRO 進行Reverse Engineering
+1.使用objdump 進行Reverse Engineering [一定要教 ]
+
+2.使用radare 2進行Reverse Engineering
+3.使用ghidra進行Reverse Engineering
+
+4.(*)使用IDA PRO 進行Reverse Engineering[應該沒時間教 ]
 ```
 # 後續建議課程
 ```
