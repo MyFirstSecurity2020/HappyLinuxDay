@@ -12,7 +12,7 @@ ELF == Executable and Linkable Format ==可執行與可鏈結格式
 wiki ==>可參考資料較少的中文版
 https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 ```
-# ELF 檔案架構
+# ELF 檔案架構(wiki資料)
 
 ![Elf-layout.png](Elf-layout.png)
 
