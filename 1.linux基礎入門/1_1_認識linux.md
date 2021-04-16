@@ -96,11 +96,4 @@ REMnux: A Linux Toolkit for Reverse-Engineering and Analyzing Malware
 專門設計用來從事逆向工程與分析惡意程式的Linux版本
 官方網址  https://remnux.org/
 ```
-# 目錄結構
-```
-Windows 作業系統目錄結構==> 有 C: D:
-   目錄 C:\Windows\System32 
-   有許多檔案與子目錄  
-   ==> 點選  diskmgmt ==> 開啟 【磁碟管理】 
-   ==> 點選  compmgmt ==> 開啟 【電腦管理】    
-```
+
