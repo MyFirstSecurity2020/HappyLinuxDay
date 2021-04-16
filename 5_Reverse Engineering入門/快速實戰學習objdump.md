@@ -29,7 +29,7 @@ objdump -S  -j .text -M intel objd2 --no-show-raw-insn
 ```
 
 ```
-# 部分結果畫面 ==>  請完成你自己的測試並記錄在你的github
+## 部分結果畫面 ==>  請完成你自己的測試並記錄在你的github
 
 ## 結果畫面 ==> 告訴我 機器碼(machine code) 是甚麼?
 ```
