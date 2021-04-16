@@ -9,7 +9,7 @@
 1_2_Linux的目錄結構與基本指令
      檔案與目錄操作指令
 
-1_3_使用CTF學linux 指令[講師依照自己選擇題木解題]
+1_3_使用CTF學linux 指令[講師依照自己選擇題目解題]
 
 (*)redirection(重定向)與pipe(管道)
 ```
@@ -26,5 +26,8 @@ linux系統管理指令  ps top ...
 Linux記憶體臉管理指令 free ...
 linux使用者管理指令  useradd userdel passwd
 Linux網路指令 wget ssh ...
-....
+...
+```
+本目錄自2021.4.16 開始整理預計一個月內會完成
+請持續關注
 ```
