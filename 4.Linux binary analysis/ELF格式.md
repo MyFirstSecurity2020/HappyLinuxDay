@@ -19,8 +19,8 @@ https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
 ```
 ELF檔案的組成：ELF header
 
-程式檔頭(Programming Header)：描述段資訊
+程式檔頭(Programm Header)：描述段資訊
 Section檔頭(Section Header)：連結與重定位需要的資料
 
-程式檔頭(Programming Header)與Section檔頭(Section Header)需要的資料 .text .data
+程式檔頭(Programm Header)與Section檔頭(Section Header)需要的資料 .text .data
 ```
