@@ -42,7 +42,8 @@ Linux核心地圖(Map of the Linux kernel)
 shell 是提供使用者輸入各種指令(linux command)來執行各種工作 <==我們今天要學一些基本指令
 
 linux有許多不同功能特色的shell ==> bourne Shell﹑C Shell﹑Korn Shell﹑Zsh Shell﹑等等
-  ==> 我們要學的是 BASH (Bourne Again SHell) == GNU 所加強的一個 Bourne shell 版本﹐ 也是大多數 Linux 套件的預設 shell 
+  ==> 我們要學的是 BASH (Bourne Again SHell) 
+            == GNU 所加強的一個 Bourne shell 版本﹐ 也是大多數 Linux 套件的預設 shell 
 ```
 ## lab 實作: 檢查你使用中的linux核心
 ```
