@@ -71,4 +71,13 @@ pwd 的語法:  pwd [OPTION]
 ```
 # 完成linux-101 ==> linux-1 與linux-2
 
-
+# 補充資料(學生自行練習) cat ==>  (2)合併多檔(concatenate）
+```
+把 textfile1 的檔案內容加上行號後輸入 textfile2 這個檔案裡
+cat -n textfile1 > textfile2
+　　
+把 textfile1 和 textfile2 的檔案內容加上行號（空白行不加）之後將內容附加到 textfile3 裡。
+　　 cat -b textfile1 textfile2 >> textfile3
+　　
+清空/etc/test.txt檔案內容 ==>   cat /dev/null > /etc/test.txt 
+```
