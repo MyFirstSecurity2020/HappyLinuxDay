@@ -7,20 +7,21 @@ It is part of the GNU binutils
 
 https://linux.die.net/man/1/readelf
 ```
+# 指令參數
 ```
 https://man7.org/linux/man-pages/man1/readelf.1.html
 
 readelf [-a|--all]
-               [-h|--file-header]  查看ELF header
-               [-l|--program-headers|--segments]
-               [-S|--section-headers|--sections]   查看Sections header
+               [-h|--file-header]  ==> 查看ELF header
+               [-l|--program-headers|--segments] ==> 查看program header
+               [-S|--section-headers|--sections]  ==> 查看Sections header
                [-g|--section-groups]
                [-t|--section-details]
                [-e|--headers]
-               [-s|--syms|--symbols]
+               [-s|--syms|--symbols] ==> 
                [--dyn-syms]
                [-n|--notes]
-               [-r|--relocs] 顯示文件的重定位部分的內容（如果有的話）
+               [-r|--relocs] ==> 顯示文件的重定位部分的內容（如果有的話）
                [-u|--unwind]
                [-d|--dynamic]
                [-V|--version-info]
