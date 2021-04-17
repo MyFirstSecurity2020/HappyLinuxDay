@@ -1,8 +1,12 @@
 # radare2
 ```
-
+wiki
+Radare2是用於對二進製文件進行反向工程和分析的完整框架。
+由一組可以與命令行一起使用或獨立使用的小型實用程序組成。
+它圍繞計算機軟件的反彙編器而構建，該反彙編器可以從機器可執行代碼生成彙編語言源代碼，
+它支持用於不同處理器體系結構和操作系統的各種可執行格式。
 ```
-
+# 2_安裝
 ## KALI 64(本次上課提供的image) 已安裝
 ```
 r2 -v  ==> 查看版本
@@ -16,7 +20,7 @@ sudo apt-get install radare2
 ```
 
 
-# 指令參數
+# 3_指令參數
 ```
 r2 -h
 Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
@@ -65,7 +69,7 @@ Usage: r2 [-ACdfLMnNqStuvwzX] [-P patch] [-p prj] [-a arch] [-b bits] [-i file]
  -X           same as -e bin.usextr=false (useful for dyldcache)
  -z, -zz      do not load strings or load them even in raw
 ```
-# BINARY 加載 與 退出
+# 4_BINARY 加載 與 退出
 ```
 BINARY 加載 
 
@@ -75,13 +79,13 @@ $ r2 ./adder
 
 退出控制枱，==> 輸入 Quit 或 Exit 或按 Ctrl+D：
 ```
-# 
+# 範例學習 ==> 基本常用指令
 ```
+全功能的二進制文件分析工具 Radare2 指南
+時間 2021-02-02 09:01:14 osc_4punxmqt
 https://www.mdeditor.tw/pl/gvNU/zh-hk
 ```
 ```
-r2 控制枱
-
 (1)先分析BINARY ==> 使用 aaa 命令
 
 $ r2 ./adder
