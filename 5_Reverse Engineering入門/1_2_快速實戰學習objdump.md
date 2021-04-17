@@ -28,7 +28,7 @@ objdump -S  -j .text -M intel objd2 --no-show-raw-insn
 ```
 # 2.結果畫面
 ```
-學習重點 ==> 從一堆看不懂的組合語言程式中 看看幾個最具關鍵性的程式  
+學習重點 ==> 從一堆看不懂的組合語言程式中 看看幾個最具關鍵性的程式(底下有中文註解部分)  
         ==> 後續再逐步學學更多組合語言程式
         
           好好聽講師授課
@@ -110,19 +110,19 @@ Disassembly of section .text: <== 程式區塊
 0000000000001130 <frame_dummy>:
     1130:	e9 7b ff ff ff       	jmp    10b0 <register_tm_clones>
 
-0000000000001135 <main>:
-// objd2.c
-#include <stdio.h>
+0000000000001135 <main>:  <===最重要的main() 函數
+// objd2.c                <== 原始C程式
+#include <stdio.h>        <== 原始C程式
 
-int main()
-{
+int main()                <== 原始C程式
+{                         <== 原始C程式
     1135:	55                   	push   rbp
     1136:	48 89 e5             	mov    rbp,rsp
-   printf("Hello CTFer\n");
+   printf("Hello CTFer\n");  <== 原始C程式
     1139:	48 8d 3d c4 0e 00 00 	lea    rdi,[rip+0xec4]        # 2004 <_IO_stdin_used+0x4>
     1140:	e8 eb fe ff ff       	call   1030 <puts@plt>
-   return 0;
-    1145:	b8 00 00 00 00       	mov    eax,0x0
+   return 0;                  <== 原始C程式
+    1145:	b8 00 00 00 00       	mov    eax,0x0 <== 對應的組合語言程式
 }
     114a:	5d                   	pop    rbp
     114b:	c3                   	ret    
