@@ -94,7 +94,7 @@ bash run_ghidra.sh
 
 要一段時間 即可安裝成功
 ```
-# 執行 Ghidra ==> 圖形介面(GUI Mode)
+# 3_執行 Ghidra ==> 圖形介面(GUI Mode)
 ```
 切換到安裝目錄 ==> 執行 ghidraRun 啟動
 ```
@@ -105,9 +105,10 @@ https://github.com/NationalSecurityAgency/ghidra/issues/1495
 
 不支援32 位元
 ```
-# 使用Ghidra解CTF
+# 4_使用Ghidra解CTF
 ```
 本課程將示範講解一個範例題
+底下列出參考資料提供學員加強學習
 ```
 ```
 主動學習 ==>參考底下文章練習 
