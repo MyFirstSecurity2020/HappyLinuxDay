@@ -11,8 +11,6 @@ B.使用gdb進行程式動態分析與調試(debug)
 ```
 在 Linux 上分析二進位檔案的 10 種方法
 10 ways to analyze binary files on Linux
-
-These simple commands and tools can help you sail through the task of analyzing binary files.
 30 Apr 2020 Gaurav Kamathe 
 https://opensource.com/article/20/4/linux-binary-analysis
 https://linux.cn/article-12187-1.html
