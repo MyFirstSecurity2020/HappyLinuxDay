@@ -26,8 +26,12 @@ objdump -S  -j .text -M intel objd2 ==> 只產生 程式區塊(.text)  INTEL 格
 objdump -S  -j .text -M intel objd2 --no-show-raw-insn
      ==> 只產生 程式區塊(.text)  INTEL 格式 的 組合語言程式 且 不顯示  機器碼(machine code)
 ```
+# 2.結果畫面
 ```
-
+學習重點 ==> 從一堆看不懂的組合語言程式中 看看幾個最具關鍵性的程式  
+        ==> 後續再逐步學學更多組合語言程式
+        
+          好好聽講師授課
 ```
 ## 部分結果畫面 ==>  請完成你自己的測試並記錄在你的github
 
