@@ -30,3 +30,11 @@ ltrace  ==>  A library call tracer.
 strace  ==>  Trace system calls and signals
 nm      ==> List symbols from object files.
 ```
+
+# 建議研讀書籍
+```
+Binary Hacks 駭客秘傳技巧一百招
+高林 哲、鵜飼 文敏、佐藤 祐介、恩a 慎一郎、首藤 一幸 著
+Studio Tib. 譯/歐萊禮2013-05-29
+https://www.tenlong.com.tw/products/9789862767665?list_name=srh
+```
