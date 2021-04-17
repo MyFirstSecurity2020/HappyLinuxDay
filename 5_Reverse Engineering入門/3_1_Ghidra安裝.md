@@ -72,6 +72,7 @@ Posted on March 26, 2019 by Yılmaz Cemalettin
 https://www.ylmzcmlttn.com/2019/03/26/ghidra-installation-on-ubuntu-18-04-16-04-14-04/
 ```
 ```
+安裝腳本程式的說明
 mkdir Ghidra    <==建立Ghidra
 cd Ghidra      <==切換到Ghidra目錄
 wget https://ghidra-sre.org/ghidra_9.0.1_PUBLIC_20190325.zip <== 在Ghidra目錄下載安裝檔
