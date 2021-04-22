@@ -36,7 +36,7 @@ int main()
 https://pydoing.blogspot.com/2010/07/c-stdio.html
 ```
 
-## 字元輸出入 ==> getchar(), putchar()
+## 【字元】輸出入 ==> getchar(), putchar()
 ```
 #include <stdio.h>
  
@@ -53,7 +53,7 @@ int main( )
    return 0;
 }
 ```
-## 字串輸出入  ==> gets(),  puts()
+## 【字串】輸出入  ==> gets(),  puts()
 ```
 #include <stdio.h>
  
