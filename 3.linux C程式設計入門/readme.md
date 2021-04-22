@@ -7,7 +7,17 @@ linux C程式的編譯與執行各階段: 預處理 => 編譯 => 彙編 => 連�
 
 B.使用gdb 調校(debug)C程式
 ```
-# 推薦書籍 ==> 上完課後, 買書  完成練習
+# 學習資源
+```
+C 語言線上中文資源
+https://pydoing.blogspot.com/2010/09/c-resource.html
+```
+```
+The GNU C Reference Manual
+https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
+```
+
+## 推薦書籍 ==> 上完課後, 買書  完成練習
 ```
 王者歸來－Linux C 系統整合開發設計, 4/e
 吳岳  佳魁資訊  2016-04-19
