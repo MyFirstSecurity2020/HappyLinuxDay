@@ -44,11 +44,17 @@ https://www.onlinegdb.com/online_c_compiler
 ```
 #include <stdio.h>
  
-/* 註解語法  */ 
+/* 單行註解 comment */
+
+/* 
+ 多行註解 comment
+ 多行註解 comment
+ 多行註解 comment
+ */
 
 int main()
 {
-    printf("Hello, CTFer! \n");
+    printf("Hello, CTFer! \n"); //第二種單行註解 comment
     return 0;
 }
 ```
