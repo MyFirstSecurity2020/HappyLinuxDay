@@ -57,7 +57,38 @@ stdio.h 是一個標頭檔[header] 定義許多標準輸入輸出的處理函示
 
 https://pydoing.blogspot.com/2010/07/c-stdio.html
 ```
-## 【字元】的輸出與輸入 ==> getchar(), putchar()
+## 基本輸出與輸入 ==>  printf(), scanf()
+
+## 錯誤程式更正題
+```
+底下為錯誤的程式實作題
+原題要你輸入如底下的執行成果
+
+請輸入一個數字 : 1.2                                                                                              
+你剛剛輸入的數字是 : 1.200000                                                                                     
+你剛剛輸入的數字 平方後答案是 : 1.440000 
+
+請更正之
+```
+#### 錯誤的程式
+```
+#include<stdio.h>
+#include<math.h>
+ 
+int main()
+{
+    int num,result;
+ 
+    printf("請輸入一個數字 : ");
+    scanf("%f",&num);
+    printf("你剛剛輸入的數字是 : %f",num);
+    //result = pow(num, 2);
+    //printf("你剛剛輸入的正整數 平方後答案是 : %f", result);
+}
+```
+```
+把  int num,result; 改成 float num,result; 
+```
 ## 【字元】的輸出與輸入 ==> getchar(), putchar()
 ```
 #include <stdio.h>
@@ -91,7 +122,7 @@ int main( )
    return 0;
 }
 ```
-##
+## 格式化輸出
 ```
 %c：以字元方式輸出
 
@@ -130,7 +161,25 @@ int main(void) {
     return 0;
 }
 ```
+## 甚麼? format 格式化輸出有可以發生漏洞? Format string Vuln.
+```
+請參加 PWN-CTF 進修
+```
 # 4.選擇性敘述 if   switch
+##
+```
+#include<stdio.h>
+ 
+int main()
+{
+    int num;
+ 
+    printf("請輸入一個正整數 : ");
+    scanf("%d",&num);
+ 
+    (num%2==0)?printf("偶數"):printf("奇數");
+}
+```
 
 ## 範例: C 命令列參數(command-line arguments)
 ```
@@ -285,8 +334,29 @@ int  main()
 (1)請使用靜態遞迴方法算出費氏數列。
 (2)請使用 iterative方法算出費氏數列。
 ```
-# 7.陣列(不使用指標)
+# 7.陣列(不使用指標) ==> 使用索引(index) 存取陣列資料
 ```
+#include <stdio.h>
+ 
+int main ()
+{
+   int n[ 10 ]; /* n 是一個包含 10 個整數的陣列 */
+   int i,j;
+ 
+   /* 初始化陣列元素 */         
+   for ( i = 0; i < 10; i++ )
+   {
+      n[ i ] = i + 100; /* 設置元素 i 為 i + 100 */
+   }
+   
+   /* 輸出陣列中每個元素的值 */
+   for (j = 0; j < 10; j++ )
+   {
+      printf("Element[%d] = %d\n", j, n[j] );
+   }
+ 
+   return 0;
+}
 
 ```
 # 8.字串(字元陣列)與字串處理(不使用指標)
