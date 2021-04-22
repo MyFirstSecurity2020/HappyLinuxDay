@@ -88,6 +88,8 @@ int main()
 ```
 ```
 把  int num,result; 改成 float num,result; 
+
+http://tw.gitbook.net/c_standard_library/c_function_pow.html
 ```
 ## 【字元】的輸出與輸入 ==> getchar(), putchar()
 ```
