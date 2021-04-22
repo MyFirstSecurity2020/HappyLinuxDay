@@ -25,6 +25,21 @@ Taiwan Olympiad in Informatics
 
 https://www.onlinegdb.com/online_c_compiler
 ```
+## A.基礎 C 程式設計
+```
+1 輸出與輸入
+   格式化的輸出與輸入
+2.基本資料型態  ==> 進階型資料結構
+   數值型資料型態
+   字串或字元型資料型態
+3.運算子、運算式與敘述
+4.選擇性敘述 if   switch
+5.迴圈 for   while     do.. while
+6.函數
+    遞迴函數
+7.陣列(不使用指標)
+8.字串(字元陣列)與字串處理(不使用指標)
+```
 # 1.輸出入
 ```
 #include <stdio.h>
@@ -163,11 +178,18 @@ int main(void) {
     return 0;
 }
 ```
-## 甚麼? format 格式化輸出有可以發生漏洞? Format string Vuln.
+## 甚麼? format 格式化輸出 可以 發生漏洞? Format string Vuln.
 ```
 請參加 PWN-CTF 進修
 ```
-# 4.選擇性敘述 if   switch
+# 2.基本資料型態 
+```
+   數值型資料型態
+   字串或字元型資料型態
+```
+# 3.運算子、運算式與敘述
+
+# 4.選擇性敘述 ==> 各類型 if   switch
 ##
 ```
 #include<stdio.h>
