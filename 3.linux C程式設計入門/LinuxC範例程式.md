@@ -37,10 +37,6 @@ int main(void)
 	return 0;
 }
 ```
-#
-```
-
-```
 ## while loop ==> 計算n!
 ```
 //do_while
