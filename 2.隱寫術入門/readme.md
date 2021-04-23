@@ -19,8 +19,9 @@
 常用工具
 Audacity  ==>https://zh.wikipedia.org/wiki/Audacity       
           ==>官方網址https://www.audacityteam.org/
+          
 Audacity是一款跨平台的音訊編輯軟體，用於錄音和編輯音訊，是自由、開放原始碼的軟體。
-可在Mac OS X、Microsoft Windows、GNU/Linux和其它作業系統上運
+可在Mac OS X、Microsoft Windows、GNU/Linux和其它作業系統上運作
 
 
 GoldWave ==> https://zh.wikipedia.org/wiki/GoldWave
