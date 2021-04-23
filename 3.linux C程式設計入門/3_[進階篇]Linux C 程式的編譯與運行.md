@@ -1,4 +1,5 @@
 # Linux C 程式的編譯與運行:
+
 ```
 編譯的各階段 ==> 參考底下延伸閱讀的資料
  原始程式碼 ===>  
@@ -7,7 +8,18 @@
  彙編 ===>
  連結 ===>
 ```
-
+# 推薦閱讀
+```
+ Advanced C and C++ Compiling by Milan Stevanovic (Apress, 2014).
+ https://github.com/Apress/adv-c-cpp-compiling
+ 
+簡體中譯  高級C/C++編譯技術 （美）斯特瓦諾維奇
+機械工業出版社  2015/04/01
+ 
+ 先看 
+ 第2章 程序生命周期階段基礎
+ 第3章 加載程序執行階段
+```
 ### 程式範例
 ```
 // helloCTFer.c
@@ -191,15 +203,4 @@ ls -al helloCTFer*
 -rw-rw-r-- 1 ksu ksu  1072  三   5 02:13 helloCTFer.o
 -rw-rw-r-- 1 ksu ksu   659  三   5 02:04 helloCTFer.s
 ```
-# 進階閱讀
-```
- Advanced C and C++ Compiling by Milan Stevanovic (Apress, 2014).
- https://github.com/Apress/adv-c-cpp-compiling
- 
-簡體中譯  高級C/C++編譯技術 （美）斯特瓦諾維奇
-機械工業出版社  2015/04/01
- 
- 先看 
- 第2章 程序生命周期階段基礎
- 第3章 加載程序執行階段
-```
+
