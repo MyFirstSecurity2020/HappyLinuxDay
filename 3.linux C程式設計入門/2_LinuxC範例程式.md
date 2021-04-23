@@ -196,7 +196,39 @@ int main(void) {
 # 3.運算子、運算式與敘述
 
 # 4.選擇性敘述 ==> 各類型 if   switch
-##
+## if
+```
+#include<stdio.h>
+ 
+int main()
+{
+    int num;
+ 
+    printf("請輸入一個正整數 : ");
+    scanf("%d",&num);
+ 
+    if (num%2==0)
+      printf("你輸入的偶數");
+}
+```
+## if ..else ..
+```
+#include<stdio.h>
+ 
+int main()
+{
+    int num;
+ 
+    printf("請輸入一個正整數 : ");
+    scanf("%d",&num);
+ 
+    if (num%2==0)
+      printf("你輸入的偶數\n");
+    else
+      printf("你輸入的奇數\n");
+}
+```
+## ? : 運算子(三元運算子)
 ```
 #include<stdio.h>
  
@@ -230,6 +262,39 @@ int main( int argc, char *argv[] )
       printf("One argument expected.\n");
    }
 }
+```
+## switch==> 執行底下程式 說明其結果為何會如此呈現? 再將 //break  去掉// 執行後答案有何不同
+```
+#include <stdio.h>
+ 
+int main ()
+{
+   /* 區域變數定義 */
+   char grade = 'B';
+ 
+   switch(grade)
+   {
+   case 'A' :
+      printf("很棒！\n" );
+      //break;
+   case 'B' :
+   case 'C' :
+      printf("做得好\n" );
+      //break;
+   case 'D' :
+      printf("您通過了\n" );
+      //break;
+   case 'F' :
+      printf("最好再試一下\n" );
+      //break;
+   default :
+      printf("無效的成績\n" );
+   }
+   printf("您的成績是 %c\n", grade );
+ 
+   return 0;
+}
+
 ```
 # 5.迴圈 
 ```
