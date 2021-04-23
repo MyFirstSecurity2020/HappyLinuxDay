@@ -6,7 +6,11 @@
 
 [階段式學習C程式設計 綱要](階段式學習C程式設計.md)
 
-
+## 練習看看 底下程式
+```
+C 語言經典100例
+https://www.runoob.com/cprogramming/c-100-examples.html
+```
 ```
 有興趣的同學也可以 參加 
 APCS-大學程式設計先修檢測
