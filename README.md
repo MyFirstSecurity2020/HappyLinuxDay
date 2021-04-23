@@ -1,8 +1,7 @@
 # HappyLinuxDay
 
-facebook 臉書 ==> [高中職生資安研習營](https://zh-tw.facebook.com/pages/category/Community/高中職生資安研習營-455550404836569/)
+facebook 臉書 ==> [高中職生資安研習營 別忘了 按讚 給我們鼓勵](https://zh-tw.facebook.com/pages/category/Community/高中職生資安研習營-455550404836569/)
 
-              ==> 別忘了 按讚 給我們鼓勵
               
 ## 課程宗旨
 ```
