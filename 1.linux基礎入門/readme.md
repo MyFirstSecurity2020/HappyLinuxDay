@@ -13,9 +13,8 @@
 
 (*)redirection(重定向)與pipe(管道)
 ```
-## 作業
+## 作業:完成底下linux練習
 ```
-完成底下linux練習
 https://overthewire.org/wargames/bandit/
 ```
 ## 第二階段學[找書學或上網找資料]
