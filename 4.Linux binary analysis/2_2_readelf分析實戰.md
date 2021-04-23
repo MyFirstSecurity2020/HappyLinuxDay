@@ -12,6 +12,9 @@ readelf - Displays information about ELF files.
 
 查看某特定section
 ```
+```
+https://man.linuxde.net/readelf
+```
 ## 查看ELF header ==> readelf -h 
 ```
 root@kali:~# readelf -h /bin/ls
@@ -35,7 +38,6 @@ ELF Header:
   Size of section headers:           64 (bytes)
   Number of section headers:         29
   Section header string table index: 28
-
 ```
 # 範例練習
 ```
