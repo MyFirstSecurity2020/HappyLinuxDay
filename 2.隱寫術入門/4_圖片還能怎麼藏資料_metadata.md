@@ -6,8 +6,7 @@ CSAW QUALS 2015: keep-calm-and-ctf(必)50
 # 參考解題步驟
 ## 解題步驟1:查看檔案格式
 ```
-
-   file /root/Desktop/img.jpg
+file /root/Desktop/img.jpg
 ```
 
 ## 解題步驟2:查看檔案內藏的字串
@@ -25,7 +24,13 @@ http://libre-software.net/edit-image-metadata-on-linux/
 
 安裝工具 ==> sudo apt-get install exiftool
 
+sudo ==> GNU/Linux允許 一般使用者 透過安全的方式使用 特殊的權限 執行程式
+      https://blog.gtwang.org/linux/sudo-su-command-tutorial-examples/
+
+apt-get ==>  (Debian)Linux用來安裝(install)軟體與套件的利器
+        更多指令參數請參閱底下參考資料
 ```
+
 ## 解題步驟4:查看檔案並讀出答案
 ```
 exiftool img.jpg  ==>即可讀出答案
@@ -34,6 +39,34 @@ exiftool img.jpg  ==>即可讀出答案
 ```
 上網找資料學習ImageMagick的技巧 試看看用此工具解此題
 http://xahlee.info/img/imagemagic.html
+```
+# (Debian)Linux用來安裝(更新)軟體與套件的利器 ==> apt-get
+```
+apt-get install  ==> 軟體安裝
+
+apt-get update ==> 軟體資料庫同步
+     apt-get update 會根據 /etc/apt/sources.list 中設定到 APT Server 去更新軟體資料庫，
+     在任何更新之前最好都先做這一個動作，讓軟體資料保持在最新的狀況之下。
+
+apt-get remove  ==> 軟體移除
+
+apt-get upgrade ==> 軟體升級
+```
+## 另外補充apt-cache 
+```
+apt-cache ==> 用來取得套件的資訊
+
+apt-cache showpkg  ==> 顯示套件資訊
+
+apt-cache stats   ==> 顯示相關的統計資訊
+
+apt-cache dump   ==> 顥示 cache 中每個套件的簡短資訊
+```
+```
+請上網將其他相關技巧整理到你的github
+強烈鼓勵學生主動學習 --主動找資料 主動整理成筆記(github)
+
+不只是坐在課堂下 單純聽講
 ```
 # metadata ==> 關於資料 的 資料（data-about-data）
 ```
