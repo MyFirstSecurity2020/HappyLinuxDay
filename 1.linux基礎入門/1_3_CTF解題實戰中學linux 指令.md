@@ -58,3 +58,23 @@ https://linux.die.net/man/1/base64
 使用base64工具將base64.txt的內容解碼==>base64 -d base64.txt
 ```
 ### 解法三:開發python程式解題  see HappyPythonDay 
+
+# Linux 101-Linux CTF 5
+```
+你知道如何 找到 secret秘密檔案嗎?
+```
+## 解題思維
+```
+Linux中 要 找檔案的指令 ?? locate.. find ..which.. 
+
+上網找上述指令的用法 ==> linux locate
+                       linux find
+                       linux which
+https://www.binarytides.com/linux-find-command-examples/
+```
+## 解題步驟
+
+從根目錄開始尋找有關secret名稱的檔案 ==> find / -name secret
+
+檢視目錄底下的secret檔案內容 ==> 找沒有permission denied的檔案 ==> cat顯示答案 
+```
