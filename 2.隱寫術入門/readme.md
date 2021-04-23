@@ -1,4 +1,4 @@
-# agenda
+# agenda 學習大綱
 ```
 1_認識 隱寫術 Steganography 
 
@@ -8,6 +8,7 @@
     檔案格式(file signature)
     使用hex編輯器分析檔案
     使用Linux的dd、binwalk指令解圖片隱寫術
+    metadata
 ```
 
 # 3_audio隱寫術 ==> 鼓勵大家上網找資料學習 再分享給同學
