@@ -18,6 +18,7 @@ strings /root/Desktop/img.jpg
 ```
 google搜尋jpg metadata linux
 
+看看怎麼用 ==>
 http://xahlee.info/img/metadata_in_image_files.html
 http://libre-software.net/edit-image-metadata-on-linux/
 
