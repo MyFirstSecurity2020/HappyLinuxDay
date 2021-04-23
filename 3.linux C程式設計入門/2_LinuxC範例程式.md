@@ -197,9 +197,96 @@ int main(void) {
 ```
    數值型資料型態
    字串或字元型資料型態
+
+資料型態：
+char    字元==>'Z'、'21'與 '&'等
+
+int	整數
+long	長整數
+short      短整數
+
+float	單精度浮點數
+double	倍精度浮點數
 ```
 # 3.運算子、運算式與敘述
-
+# 變數
+```
+變數的命名規則 
+1.變數名稱可以是英文字母、數字或底線
+2.名稱中不能有空白字元
+3.第一個字元不能是數字
+4.不能使用到關鍵字
+```
+### 範例小考[複選題]
+```
+下列何者是正確的變數名稱?
+(A)if  (B)intel_9x (C) _AMD (D)2dos (E)my dogs (F)goto
+```
+### 使用變數....
+```
+int num; 	   /* 宣告 num 為整數變數 */
+int x,y,z;      /* 同時宣告 x,y 與 z 為整數變數 */
+float total=0.0;  /* 宣告浮點數變數total，並設值為0.0 */
+```
+## 請上網找資料 舉例說明底下的運算
+```
+https://www.runoob.com/cprogramming/c-operators.html
+算術運算子
+關係運算子
+邏輯運算子
+位運算子
+設定運算子
+雜項運算子
+```
+## 範例
+```
+#include <stdio.h>
+ 
+int main()
+{
+   int a = 21;
+   int b = 10;
+   int c ;
+ 
+   c = a + b;
+   printf("加法測試的值是 %d\n", c );
+   c = a - b;
+   printf("減法測試的值是 %d\n", c );
+   c = a * b;
+   printf("乘法測試的值是 %d\n", c );
+   c = a / b;
+   printf("除法測試的值是 %d\n", c );
+   c = a % b;
+   printf("模運算測試的值是 %d\n", c );
+   c = a++;  
+   printf("a的值是 %d\n", a);
+   printf("c的值是 %d\n", c );
+   c = a--;  
+   printf("a的值是 %d\n", a);
+   printf("c的的值是 %d\n", c );
+   c = ++a;  
+   printf("a的值是 %d\n", a);
+   printf("c的值是 %d\n", c );
+   c =a++ + ++a;  
+   printf("a的值是 %d\n", a);
+   printf("c的值是 %d\n", c );
+}
+```
+```
+加法測試的值是 31
+減法測試的值是 11
+乘法測試的值是 210
+除法測試的值是 2
+模運算測試的值是 1
+a的值是 22
+c的值是 21
+a的值是 21
+c的的值是 22
+a的值是 22
+c的值是 22
+a的值是 24
+c的值是 46
+```
 # 4.選擇性敘述 ==> 各類型 if   switch
 ## if
 ```
