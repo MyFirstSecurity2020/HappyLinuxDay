@@ -39,6 +39,17 @@ that involve analyzing malicious code and generating deep insights for NSA analy
 who seek a better understanding of potential vulnerabilities in networks and systems.
 ```
 ```
+Ghidra是一個逆向工程工具,由美國國安局(NSA)在2019年3月5日的RSA安全會議中展示並免費釋出。
+其框架內含完整功能的軟體分析工具,能適用於各種平台包含Windows,Mac和Linux, 
+其主要功能包含反組譯,組譯,反編譯以及繪圖和腳本以及更多其它不及繁載的功能。
+Ghidra也支援各種不同的指令及架構,以及可執行檔(PE,ELF…), 
+在使用上則可以選擇使用者互動模式及自動模式。
+若預設的功能無法完成使用者想要的結果,它也提供了公開的API允許使用者用以自行開發個人的插件及腳本
+
+NSA逆向分析工具-Ghidra 使用心得與實例展示
+https://secbuzzer.co/post/17
+```
+```
 官方網址 https://ghidra-sre.org/
 官方GITHUB : https://github.com/NationalSecurityAgency/ghidra
 ```
