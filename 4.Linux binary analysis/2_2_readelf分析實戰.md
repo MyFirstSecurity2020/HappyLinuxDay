@@ -39,6 +39,9 @@ ELF Header:
 ```
 # 範例練習
 ```
+https://linuxtools-rst.readthedocs.io/zh_CN/latest/tool/readelf.html
+```
+```
 #include <stdio.h>
 
 int z =1;
