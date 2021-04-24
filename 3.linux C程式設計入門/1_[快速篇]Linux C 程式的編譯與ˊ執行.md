@@ -28,7 +28,9 @@ int main()
     ==> file ./helloCTFer.exe ==>  特別注意{故意使用windows 執行檔副檔名}
   
   (4)使用hexdump檢查檔案特徵格式
-       hexdump ./helloCTFer
+       hexdump ./helloCTFer | head
+       
+  strings ./a.out
 ```
 # 挑選 linuxC範例程式 數題 練習
 
