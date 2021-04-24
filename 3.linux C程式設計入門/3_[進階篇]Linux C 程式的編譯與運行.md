@@ -248,7 +248,7 @@ ls -al helloCTFer*
 -rw-rw-r-- 1 ksu ksu   659  三   5 02:04 helloCTFer.s
 ```
 
-# 逆向reverse 執行黨==> 組合語言
+# 逆向reverse 執行檔==> 組合語言
 ```
 objdump -S  helloCTFer.o ==> 會產生AT&T格式 的 組合語言程式
 
