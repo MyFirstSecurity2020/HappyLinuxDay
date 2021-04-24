@@ -2,7 +2,11 @@
 
 facebook 臉書 ==> [高中職生資安研習營 別忘了 按讚 給我們鼓勵](https://zh-tw.facebook.com/pages/category/Community/高中職生資安研習營-455550404836569/)
 
-              
+ 
+## 上課之前 一定要宣讀
+
+
+
 ## 課程宗旨
 ```
 linux是當今開放原始碼的典範，也是資訊工程重要的基礎，
