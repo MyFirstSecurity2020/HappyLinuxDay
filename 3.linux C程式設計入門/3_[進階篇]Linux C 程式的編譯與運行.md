@@ -248,4 +248,15 @@ ls -al helloCTFer*
 -rw-rw-r-- 1 ksu ksu   659  三   5 02:04 helloCTFer.s
 ```
 
+# 逆向reverse 執行黨==> 組合語言
+```
+objdump -S  helloCTFer.o ==> 會產生AT&T格式 的 組合語言程式
 
+objdump -S -M intel helloCTFer.o ==> 會產生INTEL 格式 的 組合語言程式
+
+objdump -S  -j .text -M intel helloCTFer.o ==> 只產生 程式區塊(.text)  INTEL 格式 的 組合語言程式
+
+objdump -S  -j .text -M intel helloCTFer.o --no-show-raw-insn
+     ==> 只產生 程式區塊(.text)  INTEL 格式 的 組合語言程式 且 不顯示  機器碼(machine code)
+
+```
