@@ -221,7 +221,7 @@ helloCTFer.o: ELF 32-bit LSB relocatable, Intel 80386, version 1 (SYSV), not str
 
 有許多工作 ...以後再學 原理
 位址和記憶體配置（Address and Storage Allocation)
-符號解析(Symbol Resolutio) 
+符號解析(Symbol Resolution) 
 重定址（Relocation) ==> 修正程式中每個絕對位址引用的位置，使它們指向正確的位址
 
 最後得到 ==>
