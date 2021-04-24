@@ -6,6 +6,10 @@ Windows 作業系統目錄結構==> 有 C: D:
    目錄 C:\Windows\System32 ==>  有許多檔案與子目錄  
    ==> 點選  diskmgmt ==> 開啟 【磁碟管理】 
    ==> 點選  compmgmt ==> 開啟 【電腦管理】    
+   
+   calc
+   notepad
+   winword
 ```
 ## Linux 作業系統目錄結構 
 ```
