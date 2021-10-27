@@ -1,9 +1,10 @@
 # agenda
 ```
-
-
+linux
+核心(kernel) 與 shell
+發行版本(distributions)
 ```
-# linux
+## linux
 ```
 Linux…是一種自由和開放原始碼(open source)的UNIX-like作業系統。
 
@@ -17,7 +18,7 @@ modular,multitasking(多工), Unix-like operating system kerne
 https://github.com/torvalds/linux
 ```
 
-# 核心(kernel) 與 shell
+## 核心(kernel) 與 shell
 ```
 Linux kernel(內核|核心)::
 https://en.wikipedia.org/wiki/Linux_kernel
@@ -54,7 +55,7 @@ linux有許多不同功能特色的shell ==> bourne Shell﹑C Shell﹑Korn Shell
 打開terminal  ==> 輸入 bash --version
 ```
 
-# 發行版本(distributions)
+## 發行版本(distributions)
 ```
 Ubuntu是以桌面應用為主的Linux發行版，基於Debian。
 
